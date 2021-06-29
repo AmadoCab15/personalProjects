@@ -1,0 +1,737 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif; 
+    color: #000;
+    font-family: 'Titillium Web', sans-serif;
+    
+
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+
+body {
+    position: relative;
+    background-image: url("img/background.jpg");
+}
+
+
+.overlay {
+    opacity: 40%;
+    background-color: black;
+}
+
+.hiddenOver {
+    opacity: 100%;
+    transition: 0.5s;
+    background-color: transparent;
+    
+}
+
+
+
+
+#particles-js canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
+/*-----------------------------Main Nav Menu-------------------------*/
+
+
+.mainNavBar{
+    font-size: 18px;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    background-color: #ffffff;
+    height: 50px;
+    position: fixed;
+    box-shadow: 3px 4px #dbdbdb;
+    border-bottom-left-radius: 6px;
+}
+
+.navBar {
+    width: 73%;
+    float: right;
+    text-align: center;
+}
+
+
+
+.nameTag {
+    font-weight: bold;
+    margin: 6px 0% 4px 6%;
+    width: 180px;
+    transition: 2s, 1s;
+    float:left;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.nameTag:hover,
+.nameTag:active {
+    color: #1E656D;
+}
+
+.mainNavBar li {
+    margin: 12px 12px 10px 0;
+    display: inline-block;
+    margin-left: 0px;
+    font-size: 110%;
+}
+
+.mainNavBar li a {
+    text-decoration: none;
+
+}
+
+.mainNavBar li a:hover,
+.mainNavBar li a:active {
+    color: #1E656D;
+    font-weight: bold;
+    transition: 0.2s;
+    
+}
+
+.anchor {
+    position: relative;
+    top: -60px;
+
+}
+
+
+/*-----------------------------Home Intro-------------------------*/
+
+.homePage {
+    height: 100vh;
+    
+}
+
+
+.intro {
+    text-align: center;
+}
+
+.name {
+    color:white;
+    padding-top: 200px;
+    height: 100px;
+    font-size: 72px;
+}
+
+
+.career {
+    color:white;
+    font-size: 24px;
+    display: block;
+
+}
+
+.homeButtons {
+
+    text-align: center;
+}
+
+.homeIcon {
+    color: white;
+    font-size: 30px;
+    margin: 20px 10px;
+    transition: 0.5s;
+}
+
+.homeIcon:hover {
+    color: #98DBC6;
+    font-size: 30px;
+    margin: 20px 10px;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+
+
+
+/*-----------------------------Fixed Boxes-------------------------*/
+
+
+.wrapperBoxes {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    height: 2050px;
+}
+
+.leftBoxes, .rightBoxes {
+    margin-top: 20px;
+    float: left;
+    height: 590px;
+}
+
+
+.leftBoxes {
+    width: 390px;
+}
+
+.rightBoxes {
+    width: 560px;
+    margin-left: 10px;
+}
+
+
+/*-----------------------------20px padding top-------------------------*/
+
+.introduction, .personalInfo,
+backgroundEdu, .smallIntro, 
+.backgroundEdu, .techSkillsBox, 
+.projects, .workExp, .medJob,
+.rightJob, .leftJob, .leadershipExtra,
+.contactMe, .extra{
+    padding-top: 20px;
+}
+
+/*-----------------------------All of the Boxes -------------------------*/
+
+.aboutMe-Box, .personalInfoBox,
+.educationBox, .techSkillsBox,
+.projectsBox, .workExpBox,
+.leadershipBox, .contactMeBox {
+    border-radius: 10px;
+    background-color: #FEF3E2;
+}
+
+
+
+
+/*-----------------------------About Me Box-------------------------*/
+
+.aboutMe-Box {
+    height: 280px;
+    font-size: 18px;
+}
+
+.leftAbout, .rightAbout {
+    float: left;
+}
+
+.leftAbout {
+    width: 28%;
+    padding-left: 2%;
+    text-align: right;
+}
+
+.rightAbout {
+    width: 60%;
+    padding-left: 2%;
+    padding-right: 8%;
+    text-align: left;    
+}
+
+
+
+.major {
+    padding-top: 25px;
+}
+
+.personalPicture img {
+    border-radius: 100px;
+    border: solid 3px #000;
+}
+
+/*-----------------------------Personal Information Box-------------------------*/
+.personalInfoBox {
+    height: 130px;
+    font-size: 18px;
+    
+}
+
+.fullName, .dob {
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+/*-----------------------------Education Box-------------------------*/
+
+.educationBox {
+    margin-top: 20px;
+    height: 240px;
+}
+
+.leftEdu{
+    padding-left: 10px;
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+}
+
+.leftEdu img {
+    margin-top: 7px;
+    padding-left: 8%;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+
+}
+
+.sfSeal {
+    margin-top: -14px;
+}
+
+.rightEdu {
+    width: 300px;
+    float: right;
+    margin-top: 5px;
+}
+
+.berkeleySeal {
+    height: 100px;
+}
+
+.schoolBerkeley, .schoolSF {
+    font-size: 18px;
+}
+
+.schoolSF {
+    padding-top: 10px;
+}
+
+/*-----------------------------Tech Skills Box-------------------------*/
+
+.techSkillsBox {
+    margin-top: 20px;
+    height: 160px;
+}
+
+.listSkills {
+    padding-left: 10px;
+    list-style: none;
+}
+
+.listSkills li {
+    font-size: 16px;
+    padding: 1px 18px;
+    margin: 4px;
+    width: auto;
+    float: left;
+    background-color: #d4d4d4;
+    border-radius: 100px;
+    border: solid 1px #000;
+}
+
+.listSkills li:hover {
+    background-color: #A1D6E2;
+    transition: 0.2s;
+}
+
+/*-----------------------------Projects Box-------------------------*/
+
+.projectsBox {
+    height: 590px;
+    font-size: 18px;
+}
+
+.projectFrame {
+    margin: 20px 10px 0 10px;
+    height: 260px;
+    text-align: center;
+}
+
+.leftArrow, .rightArrow {
+    padding-top: 20%;
+    width: 15%;
+    float: left;
+}
+
+.fas {
+    transition: 0.5s;
+    font-size: 27px;
+}
+
+.fas:hover {
+    color: #f2bf0b;
+    height: 10%;
+    width: 32%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.projectImg {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+
+
+.projectPicture {
+    border-radius: 5%;
+    border: solid 1px black;
+}
+
+
+.navProject {
+    margin-top: 10px;
+    height: 10px;
+    text-align: center;
+}
+
+.projectLine {
+    border:solid 1px #000000;
+    height: 3px;
+    background-color: #585858;
+    border-radius: 20%;
+    width: 30px;
+    margin-right: 1%;
+    margin-left: 1%;
+    display: inline-block
+}
+
+.currBar {
+    background-color: #f2bf0b;
+    height: 5px;
+    transition: 0.5s;
+}
+
+.descriptionFrame {
+    margin: 25px 30px 0px 35px;
+    height: 200px;
+}
+
+.projectTitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.projectDescription {
+    padding: 10px 0px;
+    height: 110px;
+}
+
+.fullDescBox {
+    text-align: center;
+    
+}
+
+.fullDescription {
+    font-size: 100%;
+    background-color: #A1D6E2;
+    border-radius: 100px;
+    border: solid 2px #000;
+    width: 150px;
+}
+
+.fullDescription:hover {
+    cursor: pointer;
+}
+
+/*-----------------------------Work Experience Box-------------------------*/
+
+.workExpBox {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.rightJob, .leftJob {
+    width: 43%;
+    float: left;
+    height: 860px;
+}
+
+.medJob {
+    float: left;
+    width: 14%;
+    text-align: center;
+    height: 860px;
+}
+
+.stickOne {
+    border-left: solid 2px;
+    margin: 0px 50%;
+    height: 188px;
+}
+
+.stickTwo {
+    border-left: solid 2px;
+    margin: 0px 50%;
+    height: 150px;
+}
+
+
+.rightJob {
+    padding-right: 0px;
+}
+
+.leftJob {
+    text-align: right;
+}
+
+.jobTitle  {
+    font-size: 120%;
+}
+
+.wyzantBox {
+    margin-top: 40px;
+}
+
+.wyzantImg img {
+    height: 100px;
+    width: 110px;
+    border-radius: 20%;
+    border: solid 1px #000; 
+}
+
+.wyzantBox li  {
+    margin-top: 5px;
+    margin-right: 35px;
+
+}
+
+.mooreBox {
+    margin-top: 320px;
+}
+
+.mooreBox li {
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.mooreImg img {
+    height: 100px;
+    width: 110px;
+    border-radius: 20%;
+    border: solid 1px #000; 
+}
+
+.zermatBox {
+    margin-top: 280px;
+}
+
+.zermatImg img {
+    height: 100px;
+    width: 110px;
+    border-radius: 20%;
+    border: solid 1px #000; 
+}
+
+.zermatBox li {
+    margin-top: 5px;
+    margin-right: 35px;
+}
+
+.bulletMoore {
+    margin-left: 18px;
+}
+
+.bulletWyzant, .bulletZermat {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+
+
+.bulletZermat, .bulletWyzant,
+.bulletMoore {
+    list-style: none;
+}
+
+/*-----------------------------Leadership Box-------------------------*/
+
+.leadershipBox {
+    height: 220px;
+    margin-top: 20px;
+}
+
+.clubLogos {
+    height: 120px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 20px;
+}
+
+.clubLogos li {
+    width: 33%;
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+
+.clubLogos li img {
+    border: solid 2px black;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.clubLogos li img:hover {
+    border: solid 2px black;
+    text-align: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.leadershipPop {
+    display: none;
+    text-align: center;
+    height: 200px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 18px;
+}
+
+
+.leadershipPop.active {
+    display: block;
+    position: absolute;
+    border: solid 4px #000;
+    border-radius: 2%;
+    background-color: aliceblue;
+    transition: 0.2s;
+}  
+
+.closingTab {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 95%;
+    top: 10px;
+}
+
+.closingTab:hover {
+    cursor: pointer;
+}
+
+.closingTab img {
+    width: 100%;
+    height: 100%;
+}
+
+.titlePop {
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 150%
+}
+
+.yearPop {
+    margin-top: -5px;
+}
+
+.descPop {
+    padding: 2% 10%;
+}
+
+
+
+
+/*-----------------------------Contact Me Box-------------------------*/
+
+.contactMeBox {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    height: 380px;
+    background-color: 011A27;
+}
+
+
+.quoteBox {
+    margin-top: 20px;
+    height: 80px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.boxToProfile {
+    margin: 10px;
+    height: 160px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxToProfile {
+    border-top: solid 2px #838383;
+    border-bottom: solid 2px #838383;
+}
+
+.contactMe {
+    color: white;
+}
+
+.quoteAuthor {
+    font-size: 18px;
+    color: #b9b9b9;
+}
+
+.quoteauthorContact {
+    text-align: end;
+    margin-right: 230px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #b9b9b9;
+}
+
+.linkedInBox, .handshakeBox,
+.instagramBox, .facebookBox{
+    margin-top: 20px;
+    width: 50%;
+    height: 60px;
+    float: left;
+}
+
+.logo {
+    text-align: end;
+    width: 28%;
+    float: left;
+    height: 35px;
+    padding-right: 2%;
+    font-size: 33px;
+    margin: 0;
+}
+
+.logocontact {
+    color: white;
+}
+
+.logocontact:hover {
+    color: #98DBC6;
+}
+
+.textLogo {
+    text-align: left;
+    width: 69%;
+    float: left;
+    height: 35px;
+    font-size: 18px;
+    padding-left: 1%;
+    color: white;
+}
+
+
