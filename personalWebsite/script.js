@@ -181,7 +181,7 @@ function changeToAnts() {
     var titleBox = document.querySelector('.projectTitle');
     var descBox = document.querySelector('.projectDescription');
     titleBox.innerHTML = "Ants vs. Some Bees";
-    descBox.innerHTML = "2D game in Python that imitates 'Plants vs. Zombies' by PopCap Games. The main goal is to stop the bees invasion from entering to the base. The project requires experience in OOP and navigating external libraries.";
+    descBox.innerHTML = "2D game in Python that imitates 'Plants vs. Zombies' by PopCap Games. The main goal is to stop bees from invading the ants' base. This project involved OOP and navigating external libraries.";
     
 }
 
@@ -205,7 +205,7 @@ function changeToCats() {
     var titleBox = document.querySelector('.projectTitle');
     var descBox = document.querySelector('.projectDescription');
     titleBox.innerHTML  = " Autocorrect Typing Software";
-    descBox.innerHTML = "Program that measures typing speed and autocorrects as it reads the input. Developing the project requires understanding in recurssion, input-reading, and instant feedback for the user.";
+    descBox.innerHTML = "A program that measures typing speed and autocorrects as it reads the input. Developing the project involved the process of recursion, input-reading, and instant feedback for the user.";
 }
 
 
